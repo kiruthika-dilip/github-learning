@@ -1,0 +1,11 @@
+name: First Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on:ubuntu-latest
+    steps:
+      - name: Learning Github
+        run: echo "Kiruthika Anbazhagan is learning Github Actions"
+      - name: Completed Github Actions Migration
+        run: echo "Kiruthika Anbazhagan successfully completed Github Actions Migration for all the AHW Repositories"
+        
